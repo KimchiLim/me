@@ -1,15 +1,14 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/home';
-import About from './pages/education';
+import Education from './pages/education';
 
-const home = "/react-gh-pages";
+const home = "/me/#";
 
 function App() {
   return (
-    <Router>
-      <div>
+    <HashRouter>
         {/*
         <nav>
           <ul>
@@ -25,12 +24,14 @@ function App() {
         {/* A <Routes> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Routes>
-          <Route path={home} element={<Home />} />
-          <Route path={home + "/education"} element={<About />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/education" element={<Education />} />
+
+          <Route path={home + "/"} element={<Home />} />
+          <Route path={home + "/education"} element={<Education />} />
           {/* ... other routes */}
         </Routes>
-      </div>
-    </Router>
+    </HashRouter>
   );
 }
 

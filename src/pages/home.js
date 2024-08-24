@@ -20,22 +20,26 @@ function Home() {
       <p className="App-text">
         Nice to meet you! I'm a recent graduate of the <a rel='noreferrer' target='_blank' className='App-link' href="https://www.uchicago.edu/en">
         University of Chicago</a>, where I majored in Mathematics and Computer Science. I'm 
-        continuing my studies with the help of UChicago's <a rel='noreferrer' target='_blank' className='App-link' href="https://careeradvancement.uchicago.edu/student-opportunities/one-and-multi-year-programs/uchicago-advanced-scholars-4-1-masters-programs/">Advanced Scholar's grant</a>, 
+        continuing my studies with the help of <a rel='noreferrer' target='_blank' className='App-link' href="https://careeradvancement.uchicago.edu/student-opportunities/one-and-multi-year-programs/uchicago-advanced-scholars-4-1-masters-programs/">UChicago's Advanced Scholar's grant</a>, 
         which allows me to return to school for a partially-funded fifth year of education. During this 
         time, I'll be working towards a Master's degree in Computer Science.
       </p>
 
       <p className="App-text">
-        I'm broadly interested in the ways in which computers and mathematics intersect. This intersection is
-        manifest in 
+        I'm broadly interested in the ways in which computers and mathematics intersect. My focus is 
+        primarily in the domain of machine learning, but I find there to be hints (or more than hints) of mathematical aesthetic 
+        in a variety of fields, such as cryptography, database design, and computer networks. In short, 
+        computers are super cool!
       </p>
 
       <p className="App-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        On the side, I enjoy tennis, badminton, running (slowly), bouldering (badly), and playing tetris (freqently). 
+        I also enjoy reading science fiction and am always open to new recommendations! Currently reading: 
+        <em> The Fall of Hyperion</em> by Dan Simmons.
+      </p>
+
+      <p className="App-text">
+        Thanks for taking the time to get to know me! If you want to chat, you can reach me via <a rel='noreferrer' target='_blank' href="mailto: kevin.lim6459@gmail.com" className="App-link">email</a>.
       </p>
 
         {/*

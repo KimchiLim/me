@@ -3,7 +3,7 @@ import './../App.css';
 import MyHeader from '../components/header';
 import MyUnderline from '../components/underline';
 
-function About() {
+function Education() {
   return (
     <div className="App">
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"></link>
@@ -14,16 +14,20 @@ function About() {
       <MyUnderline />
 
       <p className="App-welcome">
-        Hi, I'm Kevin. This is my education page!
+        Coursework
       </p>
 
       <p className="App-text">
-        Nice to meet you! I'm a recent graduate of the <a rel='noreferrer' target='_blank' className='App-link' href="https://www.uchicago.edu/en">
-        University of Chicago</a>, where I majored in Mathematics and Computer Science. I'm 
-        continuing my studies with the help of UChicago's <a rel='noreferrer' target='_blank' className='App-link' href="https://careeradvancement.uchicago.edu/student-opportunities/one-and-multi-year-programs/uchicago-advanced-scholars-4-1-masters-programs/">Advanced Scholar's grant</a>, 
-        which allows me to return to school for a partially-funded fifth year of education. During this 
-        time, I'll be working towards a Master's degree in Computer Science.
+        As a result of the University of Chicago's <a className="App-link" target="_blank" href='https://college.uchicago.edu/academics/core-curriculum' rel='noreferrer'>core curriculum</a> as 
+        well as my choice to pursue two majors, I have taken a wide array of coursework across a variety of 
+        different fields. Here are some of my favourites:
       </p>
+
+      <ul>
+        <li className="App-text">In computer science, I enjoyed taking <em>Complexity Theory</em>, <em>Machine Learning</em>, and <em>Computer Networks</em>.</li>
+        <li className="App-text">In mathematics, my favourite courses were <em>Real Analysis</em>, <em>Abstract Algebra</em>, and <em>Mathematical Probability</em>.</li>
+        <li className="App-text">Other classes I enjoyed taking were <em>Cancer Biology</em>, <em>Philosophical Perspectives</em>, and <em>Intro to Creative Writing</em>.</li>
+      </ul>
 
       <p className="App-text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
@@ -54,4 +58,4 @@ function About() {
   );
 }
 
-export default About;
+export default Education;
