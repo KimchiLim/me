@@ -30,6 +30,8 @@
   font-weight: bold;
 }
 
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -77,6 +79,6 @@
   text-decoration: none;
 }
 
-.App-title:hover {
+.App-title:hover, .App-link:hover {
   color: rgb(91, 91, 91);
 }
