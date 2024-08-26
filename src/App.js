@@ -3,32 +3,27 @@ import React from 'react';
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/home';
 import Education from './pages/education';
+import Contact from './pages/contact';
+import Projects from './pages/projects';
 
 const home = "/me/#";
 
 function App() {
   return (
     <HashRouter>
-        {/*
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-          </ul>
-        </nav>*/}
 
         {/* A <Routes> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/education" element={<Education />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
 
           <Route path={home + "/"} element={<Home />} />
           <Route path={home + "/education"} element={<Education />} />
+          <Route path={home + "/contact"} element={<Contact />} />
+          <Route path={home + "/projects"} element={<Projects />} />
           {/* ... other routes */}
         </Routes>
     </HashRouter>

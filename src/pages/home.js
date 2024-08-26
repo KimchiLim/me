@@ -28,8 +28,7 @@ function Home() {
       <p className="App-text">
         I'm broadly interested in the ways in which computers and mathematics intersect. My focus is 
         primarily in the domain of machine learning, but I find there to be hints (or more than hints) of mathematical aesthetic 
-        in a variety of fields, such as cryptography, database design, and computer networks. In short, 
-        computers are super cool!
+        in a variety of fields, such as cryptography, database design, and computer networks. I find them all interesting!
       </p>
 
       <p className="App-text">
