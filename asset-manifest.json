@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/me/static/css/main.666f376a.css",
-    "main.js": "/me/static/js/main.c7fbe0c3.js",
+    "main.css": "/me/static/css/main.9b96163d.css",
+    "main.js": "/me/static/js/main.d158fe0b.js",
     "static/js/453.253ccfac.chunk.js": "/me/static/js/453.253ccfac.chunk.js",
+    "static/media/BayesOpt.png": "/me/static/media/BayesOpt.7927c6288507ec5af8df.png",
     "static/media/Resume.pdf": "/me/static/media/Resume.0048cefc363e9df5f0ee.pdf",
     "index.html": "/me/index.html",
-    "main.666f376a.css.map": "/me/static/css/main.666f376a.css.map",
-    "main.c7fbe0c3.js.map": "/me/static/js/main.c7fbe0c3.js.map",
+    "main.9b96163d.css.map": "/me/static/css/main.9b96163d.css.map",
+    "main.d158fe0b.js.map": "/me/static/js/main.d158fe0b.js.map",
     "453.253ccfac.chunk.js.map": "/me/static/js/453.253ccfac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.666f376a.css",
-    "static/js/main.c7fbe0c3.js"
+    "static/css/main.9b96163d.css",
+    "static/js/main.d158fe0b.js"
   ]
 }
