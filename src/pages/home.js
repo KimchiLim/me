@@ -20,7 +20,7 @@ function Home() {
       <p className="App-text">
         Nice to meet you! I'm a recent graduate of the <a rel='noreferrer' target='_blank' className='App-link' href="https://www.uchicago.edu/en">
         University of Chicago</a>, where I majored in Mathematics and Computer Science. I'm 
-        continuing my studies with the help of <a rel='noreferrer' target='_blank' className='App-link' href="https://careeradvancement.uchicago.edu/student-opportunities/one-and-multi-year-programs/uchicago-advanced-scholars-4-1-masters-programs/">UChicago's Advanced Scholar's grant</a>, 
+        continuing my studies with the help of <a rel='noreferrer' target='_blank' className='App-link' href="https://careeradvancement.uchicago.edu/student-opportunities/one-and-multi-year-programs/uchicago-advanced-scholars-4-1-masters-programs/">UChicago's Advanced Scholars grant</a>, 
         which allows me to return to school for a partially-funded fifth year of education. During this 
         time, I'll be working towards a Master's degree in Computer Science.
       </p>
