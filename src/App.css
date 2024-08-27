@@ -82,3 +82,14 @@
 .App-title:hover, .App-link:hover {
   color: rgb(91, 91, 91);
 }
+
+.App-project {
+  font-size: 25px;
+  text-align: left;
+  margin: 20px calc(20%) 20px calc(20%);
+}
+
+.App-img {
+  width: calc(30%);
+  height: calc(30%);
+}
