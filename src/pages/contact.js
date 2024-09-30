@@ -17,7 +17,7 @@ function Contact() {
 
       <p className="App-text">
         I'm easiest to reach via <a rel='noreferrer' target='_blank' href="mailto: kevin.lim6459@gmail.com" className="App-link">email</a>. 
-        Alternatively, you can connect with me on <a rel='noreferrer' target='_blank' href="https://www.linkedin.com/in/kevin-lim-0742431a7/" className="App-link">LinkedIn</a>.
+        Alternatively, you can connect with me on <a rel='noreferrer' target='_blank' href="https://www.linkedin.com/in/kevinhlim/" className="App-link">LinkedIn</a>.
       </p>
     </div>
   );
