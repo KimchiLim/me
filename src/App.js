@@ -5,6 +5,7 @@ import Home from './pages/home';
 import Education from './pages/education';
 import Contact from './pages/contact';
 import Projects from './pages/projects';
+import LIS from './pages/LIS'
 
 const home = "/me/#";
 
@@ -19,11 +20,13 @@ function App() {
           <Route path="/education" element={<Education />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/LIS" element={<LIS />} />
 
           <Route path={home + "/"} element={<Home />} />
           <Route path={home + "/education"} element={<Education />} />
           <Route path={home + "/contact"} element={<Contact />} />
           <Route path={home + "/projects"} element={<Projects />} />
+          <Route path={home + "/LIS"} element={<LIS />} />
           {/* ... other routes */}
         </Routes>
     </HashRouter>
